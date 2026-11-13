@@ -1,0 +1,26 @@
+{
+  "stable_recovery": {
+    "duration_seconds": 120,
+    "description": "Patient remains stable after discharge"
+  },
+  "gradual_deterioration": {
+    "duration_seconds": 300,
+    "description": "SpO2 slowly falls and respiratory rate rises"
+  },
+  "sudden_spike": {
+    "duration_seconds": 60,
+    "description": "Brief heart-rate spike caused by movement"
+  },
+  "motion_noise": {
+    "duration_seconds": 60,
+    "description": "Noisy readings caused by movement"
+  },
+  "data_dropout": {
+    "duration_seconds": 60,
+    "description": "Wearable stops sending readings"
+  },
+  "probe_removal": {
+    "duration_seconds": 60,
+    "description": "SpO2 probe removed; SpO2 becomes zero and HR flatlines"
+  }
+}
